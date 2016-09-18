@@ -67,6 +67,12 @@ This sign is being collected by a script once a minute, though it is mostly upda
 
 This data is not yet processed and available for download.
 
+### Google Driving Duration
+
+Driving duration from the Taylor Way ramp to the intersection of West Georgia and Denman is being collected every minute.
+
+This data is not yet made available.
+
 ### Traffic Cameras
 
 There are six traffic cameras relevant to the bridge. Hotlinked and live below. The cameras are being collected once a minute if they have been udpated which tends to occur once every 1-5 minutes.
