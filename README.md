@@ -41,6 +41,7 @@ Possible examples:
 The data is being harvested over the internet from a number of places.
 
 Data Summary
+
 | Dataset | CSV Download Link | Definition | Frequency |
 | ------- | ----------------- | ---------- | --------- |
 | Map     | [map.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/map.csv) | Lane directions, Segment congstions from ATIS | 1 minute |
