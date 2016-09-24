@@ -38,10 +38,21 @@ Possible examples:
 
 ## Data
 
-The data is being harvested over the internet from a number of places. More will be written here as that data becomes available.
+The data is being harvested over the internet from a number of places.
 
-Download of the latest CSV data:
-- Map CSV is located here: [map.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/map.csv)
+Data Summary
+| Dataset | CSV Download Link | Definition | Frequency |
+| ------- | ----------------- | ---------- | --------- |
+| Map     | [map.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/map.csv) | Lane directions, Segment congstions from ATIS | 1 minute |
+| Sign    | [sign.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/sign.csv) | Delay from Taylor Way to downtowm from Highway 1 ATIS sign | 1 minute |
+| Google Northbound | [google_northbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_northbound.csv) | Duration in traffic estimate from Google Northbound | 5 minutes |
+| Google Southbound | [google_northbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_southbound.csv) | Duration in traffic estimate from Google Southbound | 5 minutes |
+| Traffic Cameras | Available on Request | Six traffic cameras | 1-5 minutes |
+| Mapquest Traffic | Not Yet Avaiable | Color-coded traffic estimates by segment from Mapquest | 5 minutes |
+| Ferry Arrivals | Not Yet Available | Arrival times of ferries at Horseshoe Bay | 5 minutes |
+
+An example of all of the current data presented for a single day:
+![Mapquest Traffic Example](http://alekseymisc.s3.amazonaws.com/plot-2016-09-22.png)
 
 ### Map - Lanes Configuration and Congestion
 
@@ -65,13 +76,13 @@ The sign is a simple estimate of the delay from Taylor Way to downtown Vancouver
 
 This sign is being collected by a script once a minute, though it is mostly updated less frequently.
 
-This data is not yet processed and available for download.
+This data is available. See above for link.
 
 ### Google Driving Duration
 
 Driving duration from the Taylor Way ramp to the intersection of West Georgia and Denman is being collected every minute.
 
-This data is not yet made available.
+This data is available. See above for link.
 
 ### Traffic Cameras
 
@@ -135,14 +146,13 @@ The only thing not in the repo is the actual data. See above for links to downlo
 
 Even if you aren't going to run the ipynb files, you can open them in GitHub and it renders the output for you to see.
 
-Jupyter (IPython) Notebooks are currently the preferred tool for analysis, but definitely not a requirement. You might want to administer your own notebook server (I do). You might find it way easier to use the [Azure Notebooks Service](https://notebooks.azure.com/).
+Jupyter (IPython) Notebooks are currently the preferred tool for analysis, but definitely not a requirement. You might want to administer your own notebook server (I do). You might find it way easier to use the [Azure Notebooks Service](https://notebooks.azure.com/). I am using Python 3.
 
 Feel free to start something with your own tool and add the associated scripts/whatever to the repo.
 
 ## Next Steps
 
-1. Exploratory data analysis of the data from the map
-2. Process and make available the delay estimate on the sign
+Greater data availability.
 
 Big juicy problems:
 - Turn the camera images into estimates of current congestion and cross-validate with other source
