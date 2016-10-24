@@ -24,9 +24,10 @@ Hypothesis:
 
 Reasoning:
 - We as a community are able to direct more raw analytical talent to this problem on a volunteer basis than the Ministry of Transportation can.
-- In 2014 I requested data regarding the bridge and received the following response. 
+
+- In 2014 I requested data regarding the bridge and received the response below; we assert the response is intolerable for an important resource like the Lion's gate bridge, that the data must be retained and widely available.
+
 > As for the data for Lion’s Gate Bridge, the ministry [of Transportation] does not retain the data. The data is collected by traffic counters and is translated to an image from the local infrastructure and transferred to the public website, however, the data that drives the map is not intentionally captured and is therefore, unfortunately, not available.
-We assert that this is intolerable for an important resource like the Lion's gate bridge, that the data must be retained and widely available.
 
 ### Enable data services
 
