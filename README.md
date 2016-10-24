@@ -33,7 +33,7 @@ Hypothesis:
 - There exist opportunities for mobile and/or web applications based on the bridge and its data
 
 Possible examples:
-- Delay forecsts both short term and long term
+- Delay forecasts, both short term and long term
 - Delay alerts
 
 ## Data
@@ -49,7 +49,7 @@ Data Summary
 | Google Northbound | [google_northbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_northbound.csv) | Duration in traffic estimate from Google Northbound | 5 minutes |
 | Google Southbound | [google_northbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_southbound.csv) | Duration in traffic estimate from Google Southbound | 5 minutes |
 | Traffic Cameras | Available on Request | Six traffic cameras | 1-5 minutes |
-| Mapquest Traffic | Not Yet Avaiable | Color-coded traffic estimates by segment from Mapquest | 5 minutes |
+| Mapquest Traffic | Not Yet Available | Color-coded traffic estimates by segment from Mapquest | 5 minutes |
 | Ferry Arrivals | Not Yet Available | Arrival times of ferries at Horseshoe Bay | 5 minutes |
 
 An example of all of the current data presented for a single day:
@@ -89,7 +89,7 @@ This data is available. See above for link.
 
 There are six traffic cameras relevant to the bridge. Hotlinked and live below. The cameras are being collected once a minute if they have been udpated which tends to occur once every 1-5 minutes.
 
-It's not yet clear what will be done with this data, but it is a large dataset available on request.
+It's not yet clear what will be done with this data, but it is a large data set available on request.
 
 #### Camera 21
 ![Camera 21](http://images.drivebc.ca/bchighwaycam/pub/cameras/21.jpg)
