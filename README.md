@@ -47,7 +47,7 @@ Data Summary
 | Map     | [map.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/map.csv) | Lane directions, Segment congstions from ATIS | 1 minute |
 | Sign    | [sign.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/sign.csv) | Delay from Taylor Way to downtowm from Highway 1 ATIS sign | 1 minute |
 | Google Northbound | [google_northbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_northbound.csv) | Duration in traffic estimate from Google Northbound | 5 minutes |
-| Google Southbound | [google_northbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_southbound.csv) | Duration in traffic estimate from Google Southbound | 5 minutes |
+| Google Southbound | [google_southbound.csv](https://s3-us-west-2.amazonaws.com/lionsgatebridge/google_southbound.csv) | Duration in traffic estimate from Google Southbound | 5 minutes |
 | Traffic Cameras | Available on Request | Six traffic cameras | 1-5 minutes |
 | Mapquest Traffic | Not Yet Available | Color-coded traffic estimates by segment from Mapquest | 5 minutes |
 | Ferry Arrivals | Not Yet Available | Arrival times of ferries at Horseshoe Bay | 5 minutes |
